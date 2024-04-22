@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site super fofo</title>
+    <style>
+      body {
+        background-color: #222;
+        color: #000; /* Mudança da cor da fonte para preto */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F5461.jpg&f=1&nofb=1&ipt=9d26b9de15180fe0bf4f25516d12862beb996dd472c130ce14dd30c9c83b7f31&ipo=images");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #ff69b4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #ff1493;
+      }
+    </style>
+  </head>
+  <body>
+    <!--eu ri muito fazendo isso-->
+    <!--aliás, porque você está vendo isso?-->
+    <h1>Veja o clipe da Melanie Martinez</h1>
+    <button onclick="redirecionarParaYouTube()">Ir para o clipe</button>
+
+    <script>
+      function redirecionarParaYouTube() {
+        window.location.href = "https://youtu.be/y2cQvZPX3OY?t=23";
+      }
+    </script>
+  </body>
+</html>
